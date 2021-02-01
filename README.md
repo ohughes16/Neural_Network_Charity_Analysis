@@ -5,7 +5,7 @@ The Alphabet Soup Charity was interested in developing a machine learning algori
 
 ## Results:
 
-# Data Preprocessing
+### Data Preprocessing
 
 Variable considered the target for the model:
 
@@ -26,7 +26,7 @@ Variables that are neither targets nor features, and should be removed from the 
 - Name
 - Status
 
-# Compiling, Training, and Evaluating the Model
+### Compiling, Training, and Evaluating the Model
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
