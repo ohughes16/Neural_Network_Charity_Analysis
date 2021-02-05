@@ -28,12 +28,11 @@ Variables that are neither targets nor features, and should be removed from the 
 
 ### Compiling, Training, and Evaluating the Model
 
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
+I first altered the number of features and model inputs for the dataset to see if I could pre-process the data differently to acheive higher model performance. I reduced the number of input features from 43 to 38 by removing the feature "Status" and  consolidating the number of options in the "CLASSIFICATION" feature and "APPLICATION TYPE" feature. 
 
+I consolidated the classes in the 'APPLICATION TYPE' feature to group increase the size of the Other group by setting the count cutoff at 1000.  This reduced the number of Application Type features to T3, Other, T4, T6, T5, and T19. The data is predominately made up of T3 application types, so reducing these options I felt would help the model's performance. I also set the count cutoff for the 'Classificatin' feature at 1000 due to most of the datasets falling into the C1000 category. 
 
-Were you able to achieve the target model performance?
-
-
-What steps did you take to try and increase model performance?
+I tried many combinations of neurons, layers, and activation features to acheive the highest model performance as possible.  Initially, I attempted adding an additional hidden layer, coming in at 3 hidden layers.  The first layer had 20 neurons and 10 neurons in both the second and third layers.
 
 ## Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+ to 
