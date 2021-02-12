@@ -32,7 +32,12 @@ I first altered the number of features and model inputs for the dataset to see i
 
 I consolidated the classes in the 'APPLICATION TYPE' feature to group increase the size of the Other group by setting the count cutoff at 1000.  This reduced the number of Application Type features to T3, Other, T4, T6, T5, and T19. The data is predominately made up of T3 application types, so reducing these options I felt would help the model's performance. I also set the count cutoff for the 'Classificatin' feature at 1000 due to most of the datasets falling into the C1000 category. 
 
-I tried many combinations of neurons, layers, and activation features to acheive the highest model performance as possible.  Initially, I attempted adding an additional hidden layer, coming in at 3 hidden layers.  The first layer had 20 neurons and 10 neurons in both the second and third layers.
+I tried many combinations of neurons, layers, and activation features to acheive the highest model performance as possible.  Initially, I attempted adding an additional hidden layer, coming in at 3 hidden layers.  The first layer had 20 neurons and 10 neurons in both the second and third layers. I also attempted altering the different activation functions from relu to tanh and received little impact on the accuracy of the model. 
+
+To crosscheck the model, I attempted a random forest model to see what kind of accuracy I would get and that resulted in a lower accuracy score of 0.71.
+
+I then looped through a list of different neuron values that incremented by 2 neurons and wrote the accuracy scores to a dictionary so I could identify what the highest accuracy score was with what number of neurons.  In doing this, I was able to acheive an accuracy score of 0.73.
 
 ## Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
- to 
+
+
