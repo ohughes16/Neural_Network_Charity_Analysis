@@ -40,4 +40,4 @@ I then looped through a list of different neuron values that incremented by 2 ne
 
 ## Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
 
-
+Although the desired accuracy of 75% was not acheived with my model, I would say that the model's accuracy was close to solving this classification problem. I think that if there was more information on the significance of the model parameters and the number of features being evaluated could be brought down to a smaller number we would become closer to solving this classification problem. With the Application type and Classification columns, if we narrowed down what we were most interested in this model classifying correctly, we could up the model's accuracy by eliminating a lot of model features.
